@@ -8,8 +8,8 @@ import TwitterIcon from "../Icons/TwitterIcon";
 
 const NavbarPhoneView = ({ toggleNavbar }) => {
   return (
-    <div className="absolute left-0 top-0 z-5 w-full bg-[#f5fdff] rounded-[20px]">
-      <div className="flex items-center justify-between pt-7 px-10">
+    <div className="absolute left-0 top-0 w-full bg-[#f5fdff] rounded-[20px] h-[100vh] z-20">
+      <div className="flex items-center justify-between px-10 pt-6">
         <NavMobileIcon />
 
         <div className="cursor-pointer" onClick={() => toggleNavbar()}>
